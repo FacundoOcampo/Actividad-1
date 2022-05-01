@@ -21,11 +21,11 @@ class Email:
                  Dominio=AuxD[0]
                  TipoD=AuxD[1]
                  self.__init__(Usuario,Dominio,TipoD,Contra)
-                 print("\n")
+                 print("Se creo con exito")
              else:
-                 print('No se encontro el "."\n')
+                 print('Error: No se encontro el "."')
          else:
-             print('No se encontro el "@"\n')
+             print('Error: No se encontro el "@"')
      def CambiarContra(self):
          aux=input("Ingrese su contrasena: ")
          while self.__Contra!=aux:
